@@ -19,28 +19,6 @@ A modern, real-time chat application built specifically for NED University stude
 
 ---
 
-## 📖 Table of Contents
-
-| Section | Description |
-|---------|-------------|
-| [🎯 Overview](#-overview) | Project introduction and key highlights |
-| [✨ Features](#-features) | Comprehensive feature breakdown |
-| [🛠️ Tech Stack](#️-tech-stack) | Technology stack and dependencies |
-| [⚡ Quick Start](#-quick-start) | Setup and installation guide |
-| [🔧 Configuration](#-configuration) | Configuration and security setup |
-| [📱 Mobile App](#-mobile-app) | Android development and deployment |
-| [🏗️ Project Structure](#️-project-structure) | Code organization and architecture |
-| [🔐 Authentication](#-authentication) | Security and user management |
-| [💬 Chat Features](#-chat-features) | Messaging and communication features |
-| [🔔 Push Notifications](#-push-notifications) | Notification system details |
-| [🎨 UI/UX Design](#-uiux-design) | Design system and user experience |
-| [📊 Performance](#-performance) | Optimization and performance metrics |
-| [🚀 Deployment](#-deployment) | Production deployment guide |
-| [🤝 Contributing](#-contributing) | Contribution guidelines |
-| [📄 License](#-license) | License information |
-
----
-
 ## 🎯 Overview
 
 **NED Buddies** is a comprehensive real-time chat application designed exclusively for NED University students. It provides a secure, modern, and feature-rich platform for students to connect, communicate, and build meaningful relationships within their academic community.
