@@ -13,31 +13,13 @@
 
 A modern, real-time chat application built specifically for NED University students with cross-platform support.
 
-[🚀 Live Demo](#-live-demo) • [📱 Features](#-features) • [🛠️ Tech Stack](#️-tech-stack) • [⚡ Quick Start](#-quick-start) • [📱 Mobile App](#-mobile-app) • [🤝 Contributing](#-contributing)
+[🚀 Live Demo](#https://ned-buddies-app-for-ned-students.vercel.app/) • [📱 Features](#-features) • [🛠️ Tech Stack](#️-tech-stack) • [⚡ Quick Start](#-quick-start) • [📱 Mobile App](#-mobile-app) • [🤝 Contributing](#-contributing)
 
 </div>
 
 ---
 
-## 📖 Table of Contents
 
-- [🎯 Overview](#-overview)
-- [✨ Features](#-features)
-- [🛠️ Tech Stack](#️-tech-stack)
-- [⚡ Quick Start](#-quick-start)
-- [🔧 Configuration](#-configuration)
-- [📱 Mobile App](#-mobile-app)
-- [🏗️ Project Structure](#️-project-structure)
-- [🔐 Authentication](#-authentication)
-- [💬 Chat Features](#-chat-features)
-- [🔔 Push Notifications](#-push-notifications)
-- [🎨 UI/UX Design](#-uiux-design)
-- [📊 Performance](#-performance)
-- [🚀 Deployment](#-deployment)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-
----
 
 ## 🎯 Overview
 
