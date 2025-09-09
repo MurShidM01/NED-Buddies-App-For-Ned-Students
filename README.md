@@ -13,13 +13,33 @@
 
 A modern, real-time chat application built specifically for NED University students with cross-platform support.
 
-[🚀 Live Demo](#https://ned-buddies-app-for-ned-students.vercel.app/) • [📱 Features](#-features) • [🛠️ Tech Stack](#️-tech-stack) • [⚡ Quick Start](#-quick-start) • [📱 Mobile App](#-mobile-app) • [🤝 Contributing](#-contributing)
+[🚀 Live Demo](https://ned-buddies-app-for-ned-students.vercel.app/) • [📱 Features](#-features) • [🛠️ Tech Stack](#️-tech-stack) • [⚡ Quick Start](#-quick-start) • [📱 Mobile App](#-mobile-app) • [🤝 Contributing](#-contributing)
 
 </div>
 
 ---
 
+## 📖 Table of Contents
 
+| Section | Description |
+|---------|-------------|
+| [🎯 Overview](#-overview) | Project introduction and key highlights |
+| [✨ Features](#-features) | Comprehensive feature breakdown |
+| [🛠️ Tech Stack](#️-tech-stack) | Technology stack and dependencies |
+| [⚡ Quick Start](#-quick-start) | Setup and installation guide |
+| [🔧 Configuration](#-configuration) | Configuration and security setup |
+| [📱 Mobile App](#-mobile-app) | Android development and deployment |
+| [🏗️ Project Structure](#️-project-structure) | Code organization and architecture |
+| [🔐 Authentication](#-authentication) | Security and user management |
+| [💬 Chat Features](#-chat-features) | Messaging and communication features |
+| [🔔 Push Notifications](#-push-notifications) | Notification system details |
+| [🎨 UI/UX Design](#-uiux-design) | Design system and user experience |
+| [📊 Performance](#-performance) | Optimization and performance metrics |
+| [🚀 Deployment](#-deployment) | Production deployment guide |
+| [🤝 Contributing](#-contributing) | Contribution guidelines |
+| [📄 License](#-license) | License information |
+
+---
 
 ## 🎯 Overview
 
@@ -27,105 +47,130 @@ A modern, real-time chat application built specifically for NED University stude
 
 ### 🎯 Key Highlights
 
-- **🎓 University-Specific**: Designed exclusively for NED University students
-- **📱 Cross-Platform**: Web app + Native Android app via Capacitor
-- **🔒 Secure**: Firebase Authentication with email verification
-- **⚡ Real-time**: Instant messaging with Firebase Firestore
-- **🔔 Smart Notifications**: Push notifications for web and mobile
-- **🎨 Modern UI**: Beautiful, responsive design with Tailwind CSS
-- **📊 Advanced Features**: Message management, user profiles, and more
+| Feature | Description |
+|---------|-------------|
+| 🎓 **University-Specific** | Designed exclusively for NED University students |
+| 📱 **Cross-Platform** | Web app + Native Android app via Capacitor |
+| 🔒 **Secure** | Firebase Authentication with email verification |
+| ⚡ **Real-time** | Instant messaging with Firebase Firestore |
+| 🔔 **Smart Notifications** | Push notifications for web and mobile |
+| 🎨 **Modern UI** | Beautiful, responsive design with Tailwind CSS |
+| 📊 **Advanced Features** | Message management, user profiles, and more |
 
 ---
 
 ## ✨ Features
 
 ### 🔐 Authentication & Security
-- **Email Verification**: University email validation (@cloud.neduet.edu.pk)
-- **Secure Login/Signup**: Firebase Authentication integration
-- **Password Recovery**: Forgot password functionality
-- **Profile Management**: Editable user profiles with department/semester info
-- **Account Types**: Public/Private account options
+
+| Feature | Status | Description |
+|---------|--------|-------------|
+| Email Verification | ✅ | University email validation (@cloud.neduet.edu.pk) |
+| Secure Login/Signup | ✅ | Firebase Authentication integration |
+| Password Recovery | ✅ | Forgot password functionality |
+| Profile Management | ✅ | Editable user profiles with department/semester info |
+| Account Types | ✅ | Public/Private account options |
 
 ### 💬 Real-Time Chat
-- **Instant Messaging**: Real-time chat with Firebase Firestore
-- **Message Status**: Sent/Read indicators
-- **Message Management**: Delete for me/Delete for everyone
-- **Auto-scroll**: Automatic scrolling to latest messages
-- **Message Timestamps**: Time display for each message
-- **Long Message Support**: Read more/less functionality
-- **Link Detection**: Automatic URL detection and linking
+
+| Feature | Status | Description |
+|---------|--------|-------------|
+| Instant Messaging | ✅ | Real-time chat with Firebase Firestore |
+| Message Status | ✅ | Sent/Read indicators |
+| Message Management | ✅ | Delete for me/Delete for everyone |
+| Auto-scroll | ✅ | Automatic scrolling to latest messages |
+| Message Timestamps | ✅ | Time display for each message |
+| Long Message Support | ✅ | Read more/less functionality |
+| Link Detection | ✅ | Automatic URL detection and linking |
 
 ### 👥 User Discovery
-- **Student Directory**: Browse all verified students
-- **Advanced Filtering**: Filter by department, semester, gender, account type
-- **Search Functionality**: Search students by name
-- **User Profiles**: Detailed user information and avatars
-- **Online Status**: Visual online/offline indicators
-- **Privacy Controls**: Private account protection
+
+| Feature | Status | Description |
+|---------|--------|-------------|
+| Student Directory | ✅ | Browse all verified students |
+| Advanced Filtering | ✅ | Filter by department, semester, gender, account type |
+| Search Functionality | ✅ | Search students by name |
+| User Profiles | ✅ | Detailed user information and avatars |
+| Online Status | ✅ | Visual online/offline indicators |
+| Privacy Controls | ✅ | Private account protection |
 
 ### 🎨 User Interface
-- **Responsive Design**: Works on desktop, tablet, and mobile
-- **Dark/Light Theme**: System preference support
-- **Modern UI Components**: Radix UI + Tailwind CSS
-- **Smooth Animations**: Framer Motion animations
-- **Loading States**: Skeleton loaders and loading indicators
-- **Error Handling**: User-friendly error messages
+
+| Feature | Status | Description |
+|---------|--------|-------------|
+| Responsive Design | ✅ | Works on desktop, tablet, and mobile |
+| Dark/Light Theme | ✅ | System preference support |
+| Modern UI Components | ✅ | Radix UI + Tailwind CSS |
+| Smooth Animations | ✅ | Framer Motion animations |
+| Loading States | ✅ | Skeleton loaders and loading indicators |
+| Error Handling | ✅ | User-friendly error messages |
 
 ### 🔔 Push Notifications
-- **Cross-Platform**: Web and native mobile notifications
-- **Real-time Alerts**: Instant notification on new messages
-- **Permission Management**: Smart permission handling
-- **Background Sync**: Notifications work when app is closed
-- **Debug Tools**: Built-in notification debugging
+
+| Feature | Status | Description |
+|---------|--------|-------------|
+| Cross-Platform | ✅ | Web and native mobile notifications |
+| Real-time Alerts | ✅ | Instant notification on new messages |
+| Permission Management | ✅ | Smart permission handling |
+| Background Sync | ✅ | Notifications work when app is closed |
+| Debug Tools | ✅ | Built-in notification debugging |
 
 ### 📱 Mobile Features
-- **Native Android App**: Built with Capacitor
-- **Push Notifications**: Native Android push notifications
-- **Offline Support**: Basic offline functionality
-- **App Store Ready**: Production-ready Android app
-- **Performance Optimized**: Smooth native performance
 
-### 🛠️ Developer Features
-- **TypeScript**: Full type safety
-- **Modern React**: Hooks, Context, and modern patterns
-- **Component Library**: Reusable UI components
-- **Error Boundaries**: Graceful error handling
-- **Debug Tools**: Built-in debugging utilities
-- **Hot Reload**: Fast development experience
+| Feature | Status | Description |
+|---------|--------|-------------|
+| Native Android App | ✅ | Built with Capacitor |
+| Push Notifications | ✅ | Native Android push notifications |
+| Offline Support | ✅ | Basic offline functionality |
+| App Store Ready | ✅ | Production-ready Android app |
+| Performance Optimized | ✅ | Smooth native performance |
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Frontend
-- **Framework**: Next.js 14.2.5 (App Router)
-- **Language**: TypeScript 5.0
-- **UI Library**: React 18.3.1
-- **Styling**: Tailwind CSS 3.4.1
-- **Components**: Radix UI + Custom Components
-- **Animations**: Framer Motion 11.3.2
-- **Forms**: React Hook Form + Zod validation
-- **Icons**: Lucide React
+### Frontend Technologies
+
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| **Next.js** | `14.2.5` | React framework with App Router |
+| **React** | `18.3.1` | UI library |
+| **TypeScript** | `5.0` | Type safety and development experience |
+| **Tailwind CSS** | `3.4.1` | Utility-first CSS framework |
+| **Radix UI** | `Latest` | Accessible component primitives |
+| **Framer Motion** | `11.3.2` | Animation library |
+| **React Hook Form** | `7.52.1` | Form handling |
+| **Zod** | `3.23.8` | Schema validation |
+| **Lucide React** | `0.408.0` | Icon library |
 
 ### Backend & Services
-- **Database**: Firebase Firestore
-- **Authentication**: Firebase Auth
-- **Storage**: Firebase Storage
-- **Hosting**: Firebase Hosting
-- **Push Notifications**: Firebase Cloud Messaging (FCM)
+
+| Service | Purpose | Integration |
+|---------|---------|-------------|
+| **Firebase Firestore** | Database | Real-time data synchronization |
+| **Firebase Auth** | Authentication | User management and security |
+| **Firebase Storage** | File Storage | Media and file handling |
+| **Firebase Hosting** | Web Hosting | Static site deployment |
+| **Firebase Cloud Messaging** | Push Notifications | Cross-platform notifications |
 
 ### Mobile Development
-- **Framework**: Capacitor 6.2.1
-- **Platform**: Android (Native)
-- **Push Notifications**: Capacitor Push Notifications
-- **Build**: Android Studio + Gradle
+
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| **Capacitor** | `6.2.1` | Cross-platform mobile development |
+| **Android Studio** | Latest | Native Android development |
+| **Gradle** | Latest | Build system |
+| **Java/Kotlin** | Latest | Native Android code |
 
 ### Development Tools
-- **Package Manager**: npm
-- **Linting**: ESLint
-- **Type Checking**: TypeScript
-- **Build Tool**: Next.js
-- **Version Control**: Git
+
+| Tool | Purpose |
+|------|---------|
+| **npm** | Package manager |
+| **ESLint** | Code linting |
+| **TypeScript** | Type checking |
+| **Git** | Version control |
+| **Vercel** | Deployment platform |
 
 ---
 
@@ -133,25 +178,29 @@ A modern, real-time chat application built specifically for NED University stude
 
 ### Prerequisites
 
-- Node.js 18+ 
-- npm or yarn
-- Firebase project
-- Android Studio (for mobile development)
+| Requirement | Version | Purpose |
+|-------------|---------|---------|
+| **Node.js** | `18+` | JavaScript runtime |
+| **npm** | `Latest` | Package manager |
+| **Firebase Project** | - | Backend services |
+| **Android Studio** | `Latest` | Mobile development |
 
-### 1. Clone the Repository
+### Installation Steps
+
+#### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/ned-buddies.git
 cd ned-buddies
 ```
 
-### 2. Install Dependencies
+#### 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Environment Setup
+#### 3. Environment Setup
 
 Create a `.env.local` file in the root directory:
 
@@ -167,16 +216,18 @@ NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
 NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=your_measurement_id
 ```
 
-### 4. Firebase Setup
+#### 4. Firebase Setup
 
-1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com)
-2. Enable Authentication (Email/Password)
-3. Enable Firestore Database
-4. Enable Cloud Messaging
-5. Add your domain to authorized domains
-6. Download the Firebase config and add to `.env.local`
+| Step | Action | Description |
+|------|--------|-------------|
+| 1 | Create Firebase Project | Visit [Firebase Console](https://console.firebase.google.com) |
+| 2 | Enable Authentication | Set up Email/Password authentication |
+| 3 | Enable Firestore | Create Firestore database |
+| 4 | Enable Cloud Messaging | Configure push notifications |
+| 5 | Add Authorized Domains | Add your domain to authorized domains |
+| 6 | Download Config | Add Firebase config to `.env.local` |
 
-### 5. Run Development Server
+#### 5. Run Development Server
 
 ```bash
 npm run dev
@@ -184,7 +235,7 @@ npm run dev
 
 Visit [http://localhost:9002](http://localhost:9002) to see the application.
 
-### 6. Build for Production
+#### 6. Build for Production
 
 ```bash
 npm run build
@@ -224,12 +275,12 @@ service cloud.firestore {
 
 ### Next.js Configuration
 
-The app is configured for static export with the following features:
-
-- **Static Export**: `output: 'export'` for static hosting
-- **Image Optimization**: Remote image patterns configured
-- **TypeScript**: Build errors ignored for development
-- **ESLint**: Build-time linting disabled for faster builds
+| Setting | Value | Purpose |
+|---------|-------|---------|
+| **Static Export** | `output: 'export'` | Static hosting compatibility |
+| **Image Optimization** | Remote patterns configured | External image support |
+| **TypeScript** | Build errors ignored | Development flexibility |
+| **ESLint** | Build-time linting disabled | Faster builds |
 
 ---
 
@@ -237,44 +288,31 @@ The app is configured for static export with the following features:
 
 ### Android Development Setup
 
-1. **Install Capacitor CLI**:
-```bash
-npm install -g @capacitor/cli
-```
-
-2. **Add Android Platform**:
-```bash
-npx cap add android
-```
-
-3. **Build and Sync**:
-```bash
-npm run build
-npx cap sync android
-```
-
-4. **Open in Android Studio**:
-```bash
-npx cap open android
-```
+| Step | Command | Description |
+|------|---------|-------------|
+| 1 | `npm install -g @capacitor/cli` | Install Capacitor CLI |
+| 2 | `npx cap add android` | Add Android platform |
+| 3 | `npm run build` | Build the application |
+| 4 | `npx cap sync android` | Sync with Android project |
+| 5 | `npx cap open android` | Open in Android Studio |
 
 ### Building APK
 
-1. Open Android Studio
-2. Build → Generate Signed Bundle/APK
-3. Follow the wizard to create your APK
-4. Test on device or emulator
+| Step | Action | Description |
+|------|--------|-------------|
+| 1 | Open Android Studio | Launch the IDE |
+| 2 | Build → Generate Signed Bundle/APK | Start build process |
+| 3 | Follow the wizard | Configure signing |
+| 4 | Test on device/emulator | Verify functionality |
 
 ### Push Notifications Setup
 
-1. **Firebase Console**:
-   - Go to Project Settings → Cloud Messaging
-   - Generate Server Key
-   - Add Android app with package name: `com.ned.buddies`
-
-2. **Android Configuration**:
-   - Add `google-services.json` to `android/app/`
-   - Configure Firebase in `MainActivity.java`
+| Platform | Configuration | Description |
+|----------|---------------|-------------|
+| **Firebase Console** | Project Settings → Cloud Messaging | Generate Server Key |
+| **Android App** | Package name: `com.ned.buddies` | Configure Android app |
+| **google-services.json** | Add to `android/app/` | Firebase configuration |
+| **MainActivity.java** | Configure Firebase | Native integration |
 
 ---
 
@@ -320,18 +358,22 @@ ned-buddies/
 
 ### User Registration Process
 
-1. **Email Validation**: Only `@cloud.neduet.edu.pk` emails allowed
-2. **Profile Creation**: Department, semester, and personal info
-3. **Email Verification**: Required before account activation
-4. **Firestore Integration**: User data stored in Firestore
+| Step | Action | Description |
+|------|--------|-------------|
+| 1 | **Email Validation** | Only `@cloud.neduet.edu.pk` emails allowed |
+| 2 | **Profile Creation** | Department, semester, and personal info |
+| 3 | **Email Verification** | Required before account activation |
+| 4 | **Firestore Integration** | User data stored in Firestore |
 
 ### Security Features
 
-- **Email Verification**: Mandatory email verification
-- **Password Requirements**: Minimum 8 characters
-- **Account Types**: Public/Private account options
-- **Session Management**: Automatic session handling
-- **Error Handling**: Comprehensive error messages
+| Feature | Description |
+|---------|-------------|
+| **Email Verification** | Mandatory email verification |
+| **Password Requirements** | Minimum 8 characters |
+| **Account Types** | Public/Private account options |
+| **Session Management** | Automatic session handling |
+| **Error Handling** | Comprehensive error messages |
 
 ---
 
@@ -339,24 +381,21 @@ ned-buddies/
 
 ### Real-Time Messaging
 
-- **Instant Delivery**: Messages appear instantly
-- **Status Indicators**: Sent/Read status for each message
-- **Message Persistence**: All messages stored in Firestore
-- **Auto-scroll**: Automatic scrolling to new messages
+| Feature | Description |
+|---------|-------------|
+| **Instant Delivery** | Messages appear instantly |
+| **Status Indicators** | Sent/Read status for each message |
+| **Message Persistence** | All messages stored in Firestore |
+| **Auto-scroll** | Automatic scrolling to new messages |
 
 ### Message Management
 
-- **Delete Options**: Delete for me or delete for everyone
-- **Long Messages**: Read more/less for long messages
-- **Link Detection**: Automatic URL detection and linking
-- **Message Timestamps**: Time display for each message
-
-### User Interface
-
-- **Responsive Design**: Works on all screen sizes
-- **Modern UI**: Clean, modern interface
-- **Loading States**: Skeleton loaders during loading
-- **Error Handling**: User-friendly error messages
+| Feature | Description |
+|---------|-------------|
+| **Delete Options** | Delete for me or delete for everyone |
+| **Long Messages** | Read more/less for long messages |
+| **Link Detection** | Automatic URL detection and linking |
+| **Message Timestamps** | Time display for each message |
 
 ---
 
@@ -364,24 +403,30 @@ ned-buddies/
 
 ### Web Notifications
 
-- **Service Worker**: Firebase messaging service worker
-- **Permission Handling**: Smart permission requests
-- **Foreground Messages**: Toast notifications for active users
-- **Background Sync**: Notifications when app is closed
+| Feature | Description |
+|---------|-------------|
+| **Service Worker** | Firebase messaging service worker |
+| **Permission Handling** | Smart permission requests |
+| **Foreground Messages** | Toast notifications for active users |
+| **Background Sync** | Notifications when app is closed |
 
 ### Mobile Notifications
 
-- **Native Integration**: Capacitor push notifications
-- **Android Support**: Full Android push notification support
-- **Permission Management**: Native permission handling
-- **Background Processing**: Notifications work when app is closed
+| Feature | Description |
+|---------|-------------|
+| **Native Integration** | Capacitor push notifications |
+| **Android Support** | Full Android push notification support |
+| **Permission Management** | Native permission handling |
+| **Background Processing** | Notifications work when app is closed |
 
 ### Debug Tools
 
-- **Debug Page**: Built-in notification debugging
-- **Permission Testing**: Test notification permissions
-- **Token Management**: FCM token management
-- **Listener Testing**: Test notification listeners
+| Tool | Purpose |
+|------|--------|
+| **Debug Page** | Built-in notification debugging |
+| **Permission Testing** | Test notification permissions |
+| **Token Management** | FCM token management |
+| **Listener Testing** | Test notification listeners |
 
 ---
 
@@ -389,24 +434,30 @@ ned-buddies/
 
 ### Design System
 
-- **Color Palette**: Modern, accessible color scheme
-- **Typography**: Poppins font family
-- **Spacing**: Consistent spacing system
-- **Components**: Reusable component library
+| Element | Specification |
+|---------|---------------|
+| **Color Palette** | Modern, accessible color scheme |
+| **Typography** | Poppins font family |
+| **Spacing** | Consistent spacing system |
+| **Components** | Reusable component library |
 
 ### Responsive Design
 
-- **Mobile First**: Designed for mobile devices
-- **Tablet Support**: Optimized for tablet screens
-- **Desktop Support**: Full desktop functionality
-- **Touch Friendly**: Touch-optimized interactions
+| Breakpoint | Description |
+|------------|-------------|
+| **Mobile First** | Designed for mobile devices |
+| **Tablet Support** | Optimized for tablet screens |
+| **Desktop Support** | Full desktop functionality |
+| **Touch Friendly** | Touch-optimized interactions |
 
 ### Accessibility
 
-- **Keyboard Navigation**: Full keyboard support
-- **Screen Readers**: ARIA labels and descriptions
-- **Color Contrast**: WCAG compliant color contrast
-- **Focus Management**: Proper focus management
+| Feature | Implementation |
+|---------|----------------|
+| **Keyboard Navigation** | Full keyboard support |
+| **Screen Readers** | ARIA labels and descriptions |
+| **Color Contrast** | WCAG compliant color contrast |
+| **Focus Management** | Proper focus management |
 
 ---
 
@@ -414,18 +465,22 @@ ned-buddies/
 
 ### Optimization Features
 
-- **Static Export**: Fast loading with static files
-- **Image Optimization**: Next.js image optimization
-- **Code Splitting**: Automatic code splitting
-- **Lazy Loading**: Component lazy loading
-- **Caching**: Firebase caching strategies
+| Feature | Implementation |
+|---------|----------------|
+| **Static Export** | Fast loading with static files |
+| **Image Optimization** | Next.js image optimization |
+| **Code Splitting** | Automatic code splitting |
+| **Lazy Loading** | Component lazy loading |
+| **Caching** | Firebase caching strategies |
 
 ### Performance Metrics
 
-- **First Contentful Paint**: < 1.5s
-- **Largest Contentful Paint**: < 2.5s
-- **Cumulative Layout Shift**: < 0.1
-- **First Input Delay**: < 100ms
+| Metric | Target | Current |
+|--------|--------|---------|
+| **First Contentful Paint** | < 1.5s | ✅ |
+| **Largest Contentful Paint** | < 2.5s | ✅ |
+| **Cumulative Layout Shift** | < 0.1 | ✅ |
+| **First Input Delay** | < 100ms | ✅ |
 
 ---
 
@@ -433,70 +488,64 @@ ned-buddies/
 
 ### Web Deployment
 
-1. **Build the application**:
-```bash
-npm run build
-```
-
-2. **Deploy to Firebase Hosting**:
-```bash
-firebase deploy
-```
-
-3. **Deploy to Vercel**:
-```bash
-vercel --prod
-```
+| Platform | Command | Description |
+|----------|---------|-------------|
+| **Build** | `npm run build` | Create production build |
+| **Firebase Hosting** | `firebase deploy` | Deploy to Firebase |
+| **Vercel** | `vercel --prod` | Deploy to Vercel |
 
 ### Mobile Deployment
 
-1. **Build Android APK**:
-```bash
-npx cap build android
-```
-
-2. **Upload to Google Play Store**:
-   - Create developer account
-   - Upload APK/AAB
-   - Configure store listing
-   - Submit for review
+| Step | Action | Description |
+|------|--------|-------------|
+| 1 | Build Android APK | `npx cap build android` |
+| 2 | Create Developer Account | Google Play Console |
+| 3 | Upload APK/AAB | Upload to Play Store |
+| 4 | Configure Store Listing | Add metadata and screenshots |
+| 5 | Submit for Review | Submit for Google review |
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions! Please follow these steps:
+### Contribution Process
 
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **Commit your changes**: `git commit -m 'Add amazing feature'`
-4. **Push to the branch**: `git push origin feature/amazing-feature`
-5. **Open a Pull Request**
+| Step | Action | Description |
+|------|--------|-------------|
+| 1 | Fork Repository | Create your fork |
+| 2 | Create Branch | `git checkout -b feature/amazing-feature` |
+| 3 | Commit Changes | `git commit -m 'Add amazing feature'` |
+| 4 | Push Branch | `git push origin feature/amazing-feature` |
+| 5 | Open Pull Request | Submit for review |
 
 ### Development Guidelines
 
-- Follow TypeScript best practices
-- Use meaningful commit messages
-- Test your changes thoroughly
-- Update documentation as needed
-- Follow the existing code style
+| Guideline | Description |
+|-----------|-------------|
+| **TypeScript Best Practices** | Follow TypeScript conventions |
+| **Meaningful Commit Messages** | Clear and descriptive commits |
+| **Thorough Testing** | Test all changes thoroughly |
+| **Update Documentation** | Keep docs up to date |
+| **Follow Code Style** | Maintain consistent code style |
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 🙏 Acknowledgments
 
-- **NED University** for providing the platform
-- **Firebase** for backend services
-- **Next.js** team for the amazing framework
-- **Radix UI** for accessible components
-- **Tailwind CSS** for styling utilities
-- **Capacitor** for mobile development
+| Organization | Contribution |
+|--------------|--------------|
+| **NED University** | Providing the platform |
+| **Firebase** | Backend services |
+| **Next.js Team** | Amazing framework |
+| **Radix UI** | Accessible components |
+| **Tailwind CSS** | Styling utilities |
+| **Capacitor** | Mobile development |
 
 ---
 
