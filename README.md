@@ -168,8 +168,8 @@ A modern, real-time chat application built specifically for NED University stude
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ned-buddies.git
-cd ned-buddies
+git clone https://github.com/MurShidM01/NED-Buddies-App-For-Ned-Students.git
+cd NED-Buddies-App-For-Ned-Students
 ```
 
 #### 2. Install Dependencies
@@ -531,6 +531,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Made with ❤️ for NED University Students**
 
-[⭐ Star this repo](https://github.com/your-username/ned-buddies) • [🐛 Report Bug](https://github.com/your-username/ned-buddies/issues) • [💡 Request Feature](https://github.com/your-username/ned-buddies/issues)
+[⭐ Star this repo](https://github.com/MurShidM01/NED-Buddies-App-For-Ned-Students) • [🐛 Report Bug](https://github.com/MurShidM01/NED-Buddies-App-For-Ned-Students/issues) • [💡 Request Feature](https://github.com/MurShidM01/NED-Buddies-App-For-Ned-Students/issues)
 
 </div>
